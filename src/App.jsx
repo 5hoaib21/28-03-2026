@@ -7,13 +7,14 @@ const fetchPlayers = async () => {
   const res = await fetch("/player.json");
   return res.json();
 };
-
+  const playerPromise = fetchPlayers();
 function App() {
     const [switchTab, setSwitchTab] = useState(true);
-  const playerPromise = fetchPlayers();
+    const [coin, setCoin] = useState(200000)
+
   return (
     <>
-      <Navbar />
+      <Navbar  coin={coin}/>
 
 
       <div className="max-w-300 mx-auto flex justify-between items-center">
@@ -28,7 +29,7 @@ function App() {
 switchTab === true ? <Suspense
         fallback={<span className="loading loading-ring loading-xl"></span>}
       >
-        <AvailablePlayers playerPromise={playerPromise} />
+        <AvailablePlayers playerPromise={playerPromise} setCoin={setCoin} coin={coin} />
       </Suspense> : <SelectedPlayers />
 }
 
