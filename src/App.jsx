@@ -11,6 +11,8 @@ const fetchPlayers = async () => {
 function App() {
     const [switchTab, setSwitchTab] = useState(true);
     const [coin, setCoin] = useState(200000)
+    const [purchasedPlayers, setPurchasedPlayers] = useState([])
+    // console.log(purchasedPlayers);
 
   return (
     <>
@@ -29,8 +31,15 @@ function App() {
 switchTab === true ? <Suspense
         fallback={<span className="loading loading-ring loading-xl"></span>}
       >
-        <AvailablePlayers playerPromise={playerPromise} setCoin={setCoin} coin={coin} />
-      </Suspense> : <SelectedPlayers />
+        <AvailablePlayers
+         playerPromise={playerPromise} 
+         setCoin={setCoin} 
+         coin={coin} 
+         purchasedPlayers={purchasedPlayers} 
+         setPurchasedPlayers={setPurchasedPlayers} />
+      </Suspense> : <SelectedPlayers
+       purchasedPlayers={purchasedPlayers}
+       />
 }
 
       

@@ -2,17 +2,18 @@ import React, { useState } from "react";
 import userImg from "../../assets/user.png";
 import flagImg from "../../assets/flag.png";
 
-const PlayerCard = ({ player, setCoin, coin }) => {
+const PlayerCard = ({ player, setCoin, coin, purchasedPlayers, setPurchasedPlayers }) => {
   const [isSelected, setIsSelected] = useState(false);
 
   const handleSelectedPlayer = (playerData) => {
     const playerPrice = playerData.playerPrice;
-    if(coin < playerPrice){
+    if (coin < playerPrice) {
       alert("You don't have enough coins to select this player.");
       return;
     }
     setIsSelected(true);
     setCoin(coin - playerData.playerPrice);
+    setPurchasedPlayers([...purchasedPlayers, playerData]);
   };
   return (
     <div className="card border bg-base-100  shadow-sm p-4">
@@ -41,7 +42,13 @@ const PlayerCard = ({ player, setCoin, coin }) => {
         </div>
         <div className="card-actions mt-3 flex justify-between items-center">
           <p className="font-bold">Price: $ {player.playerPrice} USD</p>
-          <button disabled={isSelected} onClick={() => {handleSelectedPlayer(player)}} className="btn">
+          <button
+            disabled={isSelected}
+            onClick={() => {
+              handleSelectedPlayer(player);
+            }}
+            className="btn"
+          >
             {isSelected === true ? "Selected" : "Choose Player"}
           </button>
         </div>
