@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "playerImage": "https://i.ibb.co.com/q3QRNztD/shakib.jpg",
+    "playerName": "Shakib Al Hasan",
+    "playerCountry": "Bangladesh",
+    "playerRole": "All-Rounder",
+    "playerRating": 9.5,
+    "playerBattingStyle": "Left-hand bat",
+    "playerBowlingStyle": "Left-arm orthodox",
+    "playerPrice": 90000
+  },
+  {
+    "id": 2,
+    "playerImage": "https://i.ibb.co.com/67zMdVNJ/faf-du.jpg",
+    "playerName": "Faf du Plessis",
+    "playerCountry": "South Africa",
+    "playerRole": "Batsman",
+    "playerRating": 9.0,
+    "playerBattingStyle": "Right-hand bat",
+    "playerBowlingStyle": "Right-arm medium",
+    "playerPrice": 85000
+  },
+  {
+    "id": 3,
+    "playerImage": "https://i.ibb.co.com/trx2j5Q/rashid-khan.jpg",
+    "playerName": "Rashid Khan",
+    "playerCountry": "Afghanistan",
+    "playerRole": "Bowler",
+    "playerRating": 9.7,
+    "playerBattingStyle": "Right-hand bat",
+    "playerBowlingStyle": "Right-arm leg spin",
+    "playerPrice": 95000
+  },
+  {
+    "id": 4,
+    "playerImage": "https://i.ibb.co.com/d43drTrs/litondash.jpg",
+    "playerName": "Liton Das",
+    "playerCountry": "Bangladesh",
+    "playerRole": "Wicketkeeper-Batsman",
+    "playerRating": 8.8,
+    "playerBattingStyle": "Right-hand bat",
+    "playerBowlingStyle": "None",
+    "playerPrice": 70000
+  },
+  {
+    "id": 5,
+    "playerImage": "https://i.ibb.co.com/6RpzmmLB/bater.jpg",
+    "playerName": "Andre Russell",
+    "playerCountry": "West Indies",
+    "playerRole": "All-Rounder",
+    "playerRating": 9.6,
+    "playerBattingStyle": "Right-hand bat",
+    "playerBowlingStyle": "Right-arm fast",
+    "playerPrice": 92000
+  },
+  {
+    "id": 6,
+    "playerImage": "https://i.ibb.co.com/8L9t2PQH/mustafij.jpg",
+    "playerName": "Mustafizur Rahman",
+    "playerCountry": "Bangladesh",
+    "playerRole": "Bowler",
+    "playerRating": 8.9,
+    "playerBattingStyle": "Left-hand bat",
+    "playerBowlingStyle": "Left-arm fast",
+    "playerPrice": 75000
+  },
+  {
+    "id": 7,
+    "playerImage": "https://i.ibb.co.com/RTNp2mgf/babar.jpg",
+    "playerName": "Babar Azam",
+    "playerCountry": "Pakistan",
+    "playerRole": "Batsman",
+    "playerRating": 9.4,
+    "playerBattingStyle": "Right-hand bat",
+    "playerBowlingStyle": "None",
+    "playerPrice": 88000
+  },
+  {
+    "id": 8,
+    "playerImage": "https://i.ibb.co.com/CsVWLhvd/david.jpg",
+    "playerName": "David Warner",
+    "playerCountry": "Australia",
+    "playerRole": "Batsman",
+    "playerRating": 9.3,
+    "playerBattingStyle": "Left-hand bat",
+    "playerBowlingStyle": "Right-arm leg spin",
+    "playerPrice": 87000
+  },
+  {
+    "id": 9,
+    "playerImage": "https://i.ibb.co.com/DPwqRDpY/iasith-malinga.jpg",
+    "playerName": "Lasith Malinga",
+    "playerCountry": "Sri Lanka",
+    "playerRole": "Bowler",
+    "playerRating": 9.1,
+    "playerBattingStyle": "Right-hand bat",
+    "playerBowlingStyle": "Right-arm fast",
+    "playerPrice": 83000
+  },
+  {
+    "id": 10,
+    "playerImage": "https://i.ibb.co.com/HfDz8PZw/ben-stock.jpg",
+    "playerName": "Ben Stokes",
+    "playerCountry": "England",
+    "playerRole": "All-Rounder",
+    "playerRating": 9.2,
+    "playerBattingStyle": "Left-hand bat",
+    "playerBowlingStyle": "Right-arm fast-medium",
+    "playerPrice": 91000
+  },
+  {
+    "id": 11,
+    "playerImage": "https://i.ibb.co.com/mCnsP3kD/di-kock.jpg",
+    "playerName": "Quinton de Kock",
+    "playerCountry": "South Africa",
+    "playerRole": "Wicketkeeper-Batsman",
+    "playerRating": 9.0,
+    "playerBattingStyle": "Left-hand bat",
+    "playerBowlingStyle": "None",
+    "playerPrice": 86000
+  },
+  {
+    "id": 12,
+    "playerImage": "https://i.ibb.co.com/kVW4fFQp/Sunil-Narine.jpg",
+    "playerName": "Sunil Narine",
+    "playerCountry": "West Indies",
+    "playerRole": "All-Rounder",
+    "playerRating": 8.9,
+    "playerBattingStyle": "Left-hand bat",
+    "playerBowlingStyle": "Right-arm off spin",
+    "playerPrice": 80000
+  }
+]
